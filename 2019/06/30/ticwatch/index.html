@@ -11,34 +11,34 @@
   <meta charset="utf-8">
 
   
-  <title>Hexo</title>
+  <title>bilibili world 2019 广州！</title>
   
-  <link rel="canonical" href="http://example.com/">
+  <link rel="canonical" href="http://example.com/2019/06/30/ticwatch/">
   
-  <meta name="description" content="">
+  <meta name="description" content="#前言tic最近很伐。疯狂更新新产品却忽略了本质就是用户的体验。系统更新慢而且应用还出的慢。华米快出新品了。人家半个月搞定的事情。出门问问年还没搞好。##说明此文章部分翻译和转载加再解释。刷机需谨慎，否则就又多一块砖头修房子了。tic国内版的生态真的差。网上流行刷非官方的国际版rom但是这样就会失去">
   
   
   <meta name="author" content="John Doe">
   
-  <meta property="og:image" content="http://example.com/images/thumbnail.jpg">
+  <meta property="og:image" content="http://example.comIMG_20190629_214414_1.jpg">
   
   <meta property="og:site_name" content="Hexo" />
   <meta property="og:type" content="article" />
-  <meta property="og:title" content="Hexo" />
+  <meta property="og:title" content="bilibili world 2019 广州！" />
   
-  <meta property="og:description" content="">
+  <meta property="og:description" content="#前言tic最近很伐。疯狂更新新产品却忽略了本质就是用户的体验。系统更新慢而且应用还出的慢。华米快出新品了。人家半个月搞定的事情。出门问问年还没搞好。##说明此文章部分翻译和转载加再解释。刷机需谨慎，否则就又多一块砖头修房子了。tic国内版的生态真的差。网上流行刷非官方的国际版rom但是这样就会失去">
   
-  <meta property="og:url" content="http://example.com/" />
+  <meta property="og:url" content="http://example.com/2019/06/30/ticwatch/" />
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Hexo">
+  <meta name="twitter:title" content="bilibili world 2019 广州！">
   
-  <meta name="twitter:description" content="">
+  <meta name="twitter:description" content="#前言tic最近很伐。疯狂更新新产品却忽略了本质就是用户的体验。系统更新慢而且应用还出的慢。华米快出新品了。人家半个月搞定的事情。出门问问年还没搞好。##说明此文章部分翻译和转载加再解释。刷机需谨慎，否则就又多一块砖头修房子了。tic国内版的生态真的差。网上流行刷非官方的国际版rom但是这样就会失去">
   
   
-  <meta name="twitter:image" content="http://example.com/images/thumbnail.jpg">
+  <meta name="twitter:image" content="http://example.comIMG_20190629_214414_1.jpg">
   
-  <meta name="twitter:url" content="http://example.com/" />
+  <meta name="twitter:url" content="http://example.com/2019/06/30/ticwatch/" />
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -189,90 +189,44 @@
 </div>
 
         <div class="trans">
-          <div class="row">
-  <div class="column">
-    <!-- Main information, edit it on theme/_config.yml -->
-    <h2 class="mb-2">ohyhello</h2>
-    <p>A student and web developer from China 🇨🇳</p>
-    <p>坚持运营博客已经有4年了，目前博客框架已经更新为hexo。4年来感谢阅读我博客的每一个人いつもありがとう！</p>
-  </div>
-</div>
+            <h2>bilibili world 2019 广州！</h2>
 
-<h3>Recent Posts</h3>
+  <p>#前言<br>tic最近很伐。疯狂更新新产品却忽略了本质就是用户的体验。系统更新慢而且应用还出的慢。华米快出新品了。人家半个月搞定的事情。出门问问年还没搞好。<br>##说明<br>此文章部分翻译和转载加再解释。<br>刷机需谨慎，否则就又多一块砖头修房子了。<br>tic国内版的生态真的差。网上流行刷非官方的国际版rom但是这样就会失去nfc 和出门问问自带的功能和携带了许多bug所以本章采用国内rom融合国际版本的方法。</p>
+<p>#准备</p>
+<blockquote>
+<p>已解锁的Bootloader<br>可以正常工作的adb/fastboot和相关驱动<br>google服务和科学上网（不是必要）<br>别手滑特别是确定连接线不会松动否则会很烦。</p>
+</blockquote>
+<p>#开冲<br>##刷入TWRP-Recovery<br>win+r打开cmd </p>
+<pre class="line-numbers language-none"><code class="language-none">adb devices<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>若出现adb占用问题</p>
+<pre class="line-numbers language-none"><code class="language-none">adb devices
+netstat -ano | findstr &quot;5037&quot;
+taskkill &#x2F;f &#x2F;pid xxxx 杀死对应进程再重新来<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<pre class="line-numbers language-none"><code class="language-none">adb reboot bootloader 进入bootloader
+fastboot devices
+fastboot oem unlock 解锁 bootloader
+fastboot boot [twrp-recovery文件名].img
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<p><img src="IMG_20190629_214414_1.jpg" alt="IMG_20190629_214414_1.jpg"></p>
+<p><a target="_blank" rel="noopener" href="https://img.ohyhello.org/image/t9N"><img src="IMG_20190629_214556.md.jpg" alt="IMG_20190629_214556.md.jpg"></a></p>
+<p><a target="_blank" rel="noopener" href="https://img.ohyhello.org/image/3yT"><img src="IMG_20190629_215002.jpg" alt="IMG_20190629_215002.jpg"></a></p>
+<p><img src="QQ20190629214913.png" alt="QQ20190629214913.png"></p>
+<p><a target="_blank" rel="noopener" href="https://img.ohyhello.org/image/6Ak"><img src="QQ20190629214927.png" alt="QQ20190629214927.png"></a></p>
+<p>之后会直接进入recovery</p>
+<blockquote>
+<p>1.双清选择Wipe - Factory Rest - 右划确定<br>2.确定手表与电脑相连，将Conversion patch.zip复制进手表中的TWRP文件夹中<br>3.在TWRP-Recovery主界面，选择Install - Install Zip - 选择 Conversion patch.zip - 然后点对勾</p>
+</blockquote>
+<p>刷完后重启时候可能还要清一遍 第一次启动时间有点长<br>要root的就顺便刷入magisk。<br>重启后就有中国版支持国际版的系统了。<br>不同的是我在刷recovery的时候发现 adb reboot recovery 不能进入recovery。<br>#相关<br>变砖了就参考下面三篇文章刷入国际版或者混合版系统。<br>或者输入中国版镜像 文章已经提供。<br>手表右侧两颗按键齐按，强制重启，感受到震动后不放开，1-2秒后会进入bootloader界面。<br>#其他</p>
+<p>如果你想覆盖recovery使bootloader可以直接引导到twrp</p>
+<pre class="line-numbers language-none"><code class="language-none">fastboot.exe flash recovery recovery.img<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>资源已经打好包了在这里<br>链接: <a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1EHuflvR6O-95caa8shCtbw">https://pan.baidu.com/s/1EHuflvR6O-95caa8shCtbw</a> 提取码: chkr<br>建议4g版不要乱试 毕竟这个只适合蓝牙版<br>建议刷机前先备份</p>
+<p>感谢<a target="_blank" rel="noopener" href="https://bbs.chumenwenwen.com/forum.php?mod=viewthread&tid=409801&extra=&highlight=pro+%E5%88%B7&page=1" title="@lzwhuhu">@lzwhuhu</a></p>
+<p>原文<a target="_blank" rel="noopener" href="https://forum.xda-developers.com/smartwatch/other-smartwatches/rom-kernel-t3821013" title="原文">原文</a></p>
+<p><a target="_blank" rel="noopener" href="https://iam.lc/2018/09/ticwatch-pro-flashing-international-firmware.ping" title="参考">参考</a></p>
 
+  <p><a class="classtest-link" href="/tags/lab/" rel="tag">lab</a> — Jun 30, 2019</p>
+  
 
-<div class="row">
-
-  <div class="three columns left lit">
-    <p class="bottom">Dec 19, 2020</p>
-  </div>
-  <div class="nine columns left mb-3">
-    <a href="/2020/12/19/hello-world/" class="">
-      
-        Hello World
-      
-    </a>
-  </div>
-</div>
-
-<div class="row">
-
-  <div class="three columns left lit">
-    <p class="bottom">Aug 20, 2019</p>
-  </div>
-  <div class="nine columns left mb-3">
-    <a href="/2019/08/20/bilibili-world-2019/" class="">
-      
-        bilibili world 2019 广州！
-      
-    </a>
-  </div>
-</div>
-
-<div class="row">
-
-  <div class="three columns left lit">
-    <p class="bottom">Jun 30, 2019</p>
-  </div>
-  <div class="nine columns left mb-3">
-    <a href="/2019/06/30/ticwatch/" class="">
-      
-        bilibili world 2019 广州！
-      
-    </a>
-  </div>
-</div>
-
-<div class="row">
-
-  <div class="three columns left lit">
-    <p class="bottom">Feb 5, 2018</p>
-  </div>
-  <div class="nine columns left mb-3">
-    <a href="/2018/02/05/centos7-3-frp/" class="">
-      
-        在centOS （7.3）下搭建frp
-      
-    </a>
-  </div>
-</div>
-
-<div class="row">
-
-  <div class="three columns left lit">
-    <p class="bottom">Dec 4, 2017</p>
-  </div>
-  <div class="nine columns left mb-3">
-    <a href="/2017/12/04/meo-live2d/" class="">
-      
-        如何给自己的博客添加一个萌萌的看板娘！live2d
-      
-    </a>
-  </div>
-</div>
-
-
-<h4> <a href="/archives">All Posts</a></h4>
 
           <div class="row mt-2">
   
