@@ -273,8 +273,23 @@
 
 <!--music-->
 <script src="assets/js/aplayer.min.js"></script>
-    <script src="assets/js/meting.min.js"></script>
-{% aplayer title author url [picture_url, narrow, autoplay, width:xxx, lrc:xxx] %}
+<link rel="stylesheet" href="assets/css/APlayer.min.css">
+<div id="aplayer">
+<script>
+  const ap = new APlayer({
+    container: document.getElementById('aplayer'),
+    fixed: true,
+    audio: [{
+        name: '5センチ先の夢',
+        artist: 'H△G',
+        url: 'https://m801.music.126.net/20201227140100/c2ca9435141e92801b94f853c82734c6/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/4717766365/6368/adee/9e6f/ae24d36aa94e6ffab287b272cf532612.mp3',
+        cover: 'https://api.fczbl.vip/163/?type=cover&id=1493073189',
+        lrc: 'https://api.fczbl.vip/163/?type=lrc&id=1493073189',
+    }]
+});
+
+</script>
+</div>
 
 
 <h4> <a href="/archives">All Posts</a></h4>
